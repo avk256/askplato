@@ -1,0 +1,11 @@
+{
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_dimension": 1024,
+  "num_chunks": 225,
+  "faiss_index_type": "IndexFlatIP",
+  "normalized_embeddings": true,
+  "chunks_file": "plato_chunks_stage1.jsonl",
+  "faiss_index_file": "plato_vector_index_bge_m3/plato_bge_m3.faiss",
+  "metadata_file": "plato_vector_index_bge_m3/plato_chunks_metadata.jsonl",
+  "embeddings_file": "plato_vector_index_bge_m3/plato_embeddings.npy"
+}
